@@ -9,7 +9,7 @@ The ultrasonic sensor works by sending signals and measuring the time it takes f
 as we know the speed of the signals and the time it took for the signal to travel a certain distance. All of these calculations are done in the back end, on one of the driver files, all we have to do
 is call the function and we get the distance (if you want to see and understand the function that calculates the distance let us know and we would be happy to show you).
 
-DeviceDriverSet_UTLRASONIC Class - We must instantiate this in order to access the ultrasonic sensor
+DeviceDriverSet_ULTRASONIC Class - We must instantiate this in order to access the ultrasonic sensor
 
 DeviceDriverSet_ULTRASONIC_Init() - Configures the pin numbers for the Ultrasonic sensor, allows the motherboard on the robot to talk to the sensor (call this in setup)
 DeviceDriverSet_ULTRASONIC_Get() - Retrieves the data from Ultrasonic sensor, returns the distance of an obstacle that is in front of the Ultrasonic Sensor (in centimeters)
