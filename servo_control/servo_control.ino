@@ -12,8 +12,8 @@ DeviceDriverSet_Servo AppServo;
   The servo can only turn for 180 degrees. The 0 degree mark is facing your front right wheel, and the 180 degree mark is facing your front left wheel.
   Note that the default direction of movement is counterclockwise (left)
 
-  Therefore, to move 10 degrees to the right, you would use position - 10.
-  To move 10 degrees to the left, you would use position + 10.
+  Therefore, to move 10 degrees to the right you would subtract 10 from the current position (Current Position - 10).
+  To move 10 degrees to the left you would use position add 10 to the current position (Current Position + 10).
   
   To set the position of the servo, use the following function:
   AppServo.DeviceDriverSet_Servo_Init(degreesPosition)
@@ -27,7 +27,6 @@ int position = 90;
 
 void setup()
 {
-  // put your setup code here, to run once:
   // Set the servo to the 90 degree position (facing forward)
   AppServo.DeviceDriverSet_Servo_Init(position);
 
@@ -48,6 +47,5 @@ void setup()
 
 void loop()
 {
-  // put your main code here, to run repeatedly:
 
 }
