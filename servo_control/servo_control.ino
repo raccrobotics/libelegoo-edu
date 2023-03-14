@@ -7,7 +7,7 @@ DeviceDriverSet_Servo AppServo;
 
 /*
   FUNCTIONS FOR SERVO:
-  The servo is the device that moves the camera on your robot. It is basically a motor with a limited degree of motion.
+  The servo is the device that moves the camera and ultrasonic sensor on your robot. It is basically a motor with a limited degree of motion.
 
   The servo can only turn for 180 degrees. The 0 degree mark is facing your front right wheel, and the 180 degree mark is facing your front left wheel.
   Note that the default direction of movement is counterclockwise (left)
