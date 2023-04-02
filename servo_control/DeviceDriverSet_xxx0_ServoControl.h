@@ -6,8 +6,8 @@
  * @Description: conqueror robot tank
  * @FilePath: 
  */
-#ifndef _DeviceDriverSet_xxx0_H_
-#define _DeviceDriverSet_xxx0_H_
+#ifndef _DeviceDriverSet_xxx0_H_ServoControl
+#define _DeviceDriverSet_xxx0_H_ServoControl
 
 /*Servo*/
 #include <Servo.h>
