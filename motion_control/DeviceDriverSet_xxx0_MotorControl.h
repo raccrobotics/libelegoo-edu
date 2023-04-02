@@ -1,5 +1,5 @@
-#ifndef _DeviceDriverSet_xxx0_H_
-#define _DeviceDriverSet_xxx0_H_
+#ifndef _DeviceDriverSet_xxx0_H_MotorControl
+#define _DeviceDriverSet_xxx0_H_MotorControl
 
 #include <arduino.h>
 
