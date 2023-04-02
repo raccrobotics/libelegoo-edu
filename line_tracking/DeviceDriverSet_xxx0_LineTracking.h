@@ -1,5 +1,5 @@
-#ifndef _DeviceDriverSet_xxx0_H_
-#define _DeviceDriverSet_xxx0_H_
+#ifndef _DeviceDriverSet_xxx0_H_LineTracking
+#define _DeviceDriverSet_xxx0_H_LineTracking
 #include <arduino.h>
 /*ITR20001 Detection*/
 class DeviceDriverSet_ITR20001
